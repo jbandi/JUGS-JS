@@ -12,5 +12,6 @@ If you want to follow along with all the demos, you should also install the foll
 - WebStorm ([30 day trial-version available here](https://www.jetbrains.com/webstorm/)])
 
 You should then also install some JavaScript tools via NPM:
+
   npm install -g grunt-cli gulp bower yo http-server karma-cli protractor
 
