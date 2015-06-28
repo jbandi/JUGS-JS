@@ -15,3 +15,12 @@ You should then also install some JavaScript tools via NPM:
 
     npm install -g grunt-cli gulp bower yo http-server karma-cli protractor
 
+
+
+To prepare for the build demo go into the directory `01-Intro/02-SimplisticToDo-Gulp` and execute the following commands:
+
+	npm install
+	bower install
+
+The above commands should run without error!  
+Note: Many corporate proxies are blocking access to npmjs.org and/or to bower repositories. Please make sure that you have unrestricted access to the internet.
