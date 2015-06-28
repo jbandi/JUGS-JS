@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Simplistic ToDo</title>
+        <!-- build:css vendor.css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <!-- endbuild -->
+        <!-- build:css app.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+    </head>
+    <body>
+    <div class="container">
+
+        <div class="hero-unit">
+            <h1>Simplistic ToDo</h1>
+            <p>This is a most simplistic ToDo List in JavaScript.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-4">
+                <h2>Add a ToDo:</h2>
+                <input type="text" id="input"/>
+                <p>
+                    <input id="addBtn" type="button" class="btn btn-primary col-xs-4" value="Add"/>
+                </p>
+            </div>
+            <div class="col-xs-4">
+                <h2>Items:</h2>
+                <p id="do"> </p>
+            </div>
+
+        </div>
+        <hr>
+        <footer>
+            <p>&copy; JavaScript Course</p>
+        </footer>
+    </div> <!-- /container -->
+
+
+        <!-- build:js vendor.js -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js app.js -->
+        <script src="app/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

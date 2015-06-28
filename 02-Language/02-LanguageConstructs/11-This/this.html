@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<button id="button1">Test1</button>
+<button id="button2">Test2</button>
+
+<script>
+    var button1 = document.getElementById("button1");
+    var button2 = document.getElementById("button2");
+
+    button1.addEventListener('click', function(){
+        console.log("Event clicked: " + this);
+
+        setTimeout(function(){
+            console.log("Timeout: " + this);
+        }, 1000);
+    });
+
+    button2.addEventListener('click', function(){
+        console.log("Event clicked: " + this);
+
+        var that = this;
+        setTimeout(function(){
+            console.log("Timeout: " + that);
+        }, 1000);
+    });
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "name": "03-AngularBuild",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "03-AngularBuild",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "1.1.0",
+    "gulp": "3.8.11",
+    "gulp-combine-media-queries": "0.2.0",
+    "gulp-debug": "2.0.0",
+    "gulp-exit": "0.0.2",
+    "gulp-filter": "2.0.0",
+    "gulp-htmlmin": "^1.0.0",
+    "gulp-jshint": "1.9.0",
+    "gulp-load-plugins": "0.8.0",
+    "gulp-minify-css": "0.3.11",
+    "gulp-protractor": "^1.0.0",
+    "gulp-rev": "2.0.1",
+    "gulp-rev-replace": "0.3.1",
+    "gulp-uglify": "1.0.2",
+    "gulp-useref": "1.0.2",
+    "gulp-util": "3.0.2",
+    "gulp-watch": "3.0.0",
+    "gulp-webserver": "^0.9.0",
+    "jasmine-core": "^2.2.0",
+    "jasmine-reporters": "^2.0.5",
+    "jshint-stylish": "1.0.0",
+    "karma": "^0.12.32",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-coverage": "^0.3.1",
+    "karma-growl-reporter": "~0.1.1",
+    "karma-jasmine": "^0.3.5",
+    "karma-junit-reporter": "^0.2.2",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "path": "0.11.14",
+    "protractor": "^2.0.0",
+    "run-sequence": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

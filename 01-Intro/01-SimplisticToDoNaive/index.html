@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 10px;
+            padding-bottom: 40px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="hero-unit">
+        <h1>Simplistic ToDo</h1>
+        <p>This is a most simplistic ToDo List in JavaScript.</p>
+    </div>
+
+    <div class="row-fluid">
+        <div class="span6">
+            <h2>Add a ToDo Item:</h2>
+            <input type="text" id="input"/>
+            <p><button id="addBtn" onclick="addText()" class="btn btn-primary btn-large">Add &raquo;</button></p>
+        </div>
+        <div class="span6">
+            <h2>Items:</h2>
+            <p id="do"> </p>
+        </div>
+
+    </div>
+    <hr>
+    <footer>
+        <p>@JavaScript Workshop</p>
+    </footer>
+</div> <!-- /container -->
+
+<script>
+    function addText(){
+        var input = document.getElementById("input");
+        var node=document.createElement("h3");
+        var textnode=document.createTextNode(input.value);
+        node.appendChild(textnode);
+        document.getElementById("do").appendChild(node);
+        input.value = "";
+    }
+</script>
+</body>
+</html>

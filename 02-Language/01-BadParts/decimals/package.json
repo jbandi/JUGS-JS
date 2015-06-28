@@ -1,0 +1,12 @@
+{
+  "name": "01-BadParts",
+  "version": "1.0.0",
+  "main": "decimals.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": "true",
+  "dependencies": {
+    "decimal.js": "^4.0.1"
+  }
+}

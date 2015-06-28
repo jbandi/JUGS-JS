@@ -1,0 +1,8 @@
+{
+  "name": "yo",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "1.11.2",
+    "bootstrap": "~3.0.3"
+  }
+}
