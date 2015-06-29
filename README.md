@@ -5,6 +5,12 @@ This repository contains the material for the Hands-On JavaScript Workshop at th
 ## Hands-On Lab
 Please clone the repository in the week before the event, to get the material for the hands-on lab.
 
+If you have git installed, clone the repository with the following command:
+
+	git clone https://github.com/jbandi/JUGS-JS --depth=1
+	
+Alternatively you can download the repo as a zip file with the button on the right.
+
 ## JavaScript Tools Infrastructure
 If you want to follow along with all the demos, you should also install the following JavaScript tooling:
 
