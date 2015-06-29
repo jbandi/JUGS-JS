@@ -22,8 +22,8 @@ module.exports = function (config) {
 
         // test results reporter to use
         // possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
-        //reporters: ['progress', 'coverage', 'junit'],
-        reporters: ['progress', 'growl'],
+        reporters: ['progress', 'coverage', 'junit', 'html'],
+        // reporters: ['progress', 'growl'],
 
 
         // web server port
@@ -45,8 +45,8 @@ module.exports = function (config) {
 
         // Start these browsers:
         // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-        //browsers: ['PhantomJS'],
-        browsers: ['Chrome'],
+        browsers: ['PhantomJS'],
+        // browsers: ['Chrome'],
 
 
         // If browser does not capture in given timeout [ms], kill it
@@ -59,6 +59,10 @@ module.exports = function (config) {
 
         preprocessors: {
             'src/app/*.js': ['coverage']
+        },
+
+        htmlReporter: {
+            outputFile: 'report/units.html'
         }
 
     });
